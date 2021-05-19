@@ -10,6 +10,13 @@
   border-right: 1px solid white;
 }
 
+b{
+  background-color: black;
+  text-emphasis: none;
+  color:white;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 
 
