@@ -2,3 +2,9 @@
   font-family: 'playfair';
   src: url('fonts/playfair.ttf') format('ttf');
 }
+
+@font-face {
+  font-family: 'LM';
+  src: url('fonts/LemonMilk.otf') format('otf');
+
+}

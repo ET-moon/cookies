@@ -11,14 +11,7 @@
 }
 
 
-@media (max-width: 700px){
-    .navbar-custom {
-      text-color: #FFFFFF;
-      background-color: black;
-      border-bottom: 1px solid white;
-      height: 5%;
-    }
-}
+
 
 
 .vertical_space{
