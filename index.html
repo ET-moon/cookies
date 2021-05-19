@@ -23,17 +23,23 @@
 
 
     <nav class="navbar fixed-top navbar-custom">
-    <a style="margin-left: 10px;" data-toggle="collapse" href="#mobileMenu" role="button" aria-expanded="false">
+    <a class="d-block d-sm-block d-md-none" style="margin-left: 10px;" data-toggle="collapse" href="#mobileMenu" role="button" aria-expanded="false">
       <img style="margin-left: 10px;"width="25" height="25" src="imgs/menu_icon.png"/>
     </a>
 
-    <div style="margin-left: 25px;"
+    <div style="margin-left: 25px;">
 
-      <a  href="#"><img width="30" height="30" src="imgs/pancakeswap.png"/></a>
-      <a  href="#"><img width="30" height="30" src="imgs/twitter_logo.png"/></a>
+      <a  href="#"><img width="40" height="40" src="imgs/pancakeswap.png"/></a>
+      <a  href="#"><img width="40" height="40" src="imgs/twitter_logo.png"/></a>
+      <div class="d-none d-lg-inline">
+        <a style="margin-left: 30px;" class="top-link" href="#">WhitePaper</a>
+        <a  class="top-link" href="https://poocoin.app/tokens/0xa12c298f30a8f143eab6bef26076dcc8c23f8c4c">Chart</a>
+        <a  class="top-link" href="#roadmap">Road Map</a>
+        <a  class="top-link" href="/howToBuy.html">How to Buy</a>
+      </div>
     </div>
     <div class="mx-auto order-0">
-       <!-- center -->
+
     </div>
       <a class="navbar-brand" href="#">
         <h5 style="color:white;">Cookie Token</h5>  
@@ -47,16 +53,16 @@
 
 
     </nav>
-    <div  style="position: fixed; z-index:99999;" class="collapse drop-out" id="mobileMenu">
-
-      <ul style="z-index:100000; background-color: #0F0F0F; height:100vh; width:30vh; color:white;" class="list-group">
-        <div style="display: inline-block">
-          <a style="margin: 10%; display:inline-block;" data-toggle="collapse" href="#mobileMenu" role="button" aria-expanded="false">
-            <img width="30" height="30" src="imgs/close.png"/>
+    <div  style="position: fixed; z-index:99999; border-bottom: 1px solid white;" class="collapse drop-out" id="mobileMenu">
+      <div style="display: inline-block width:100vh; height:20%; background-color: black;">
+        <a style="margin: 10px; margin-top:20px; display:inline-block;" data-toggle="collapse" href="#mobileMenu" role="button" aria-expanded="false">
+            <img width="40" height="40" src="imgs/close.png"/>
           </a>  
-          <a href="#"><img width="30" height="30" src="imgs/pancakeswap.png"/></a>
-          <a href="#"><img width="30" height="30" src="imgs/twitter_logo.png"/></a>
-        </div>
+        <a href="#"><img width="40" height="40" src="imgs/pancakeswap.png"/></a>
+        <a href="#"><img width="40" height="40" src="imgs/twitter_logo.png"/></a>
+      </div>
+      <ul style="z-index:100000; background-color: #0F0F0F; height:40vh; width:100vh; color:white;" class="list-group">
+
         <li class="list-group-item">WhitePaper</li>
         <li class="list-group-item"><a href="https://poocoin.app/tokens/0xa12c298f30a8f143eab6bef26076dcc8c23f8c4c">Chart</a></li>
         <li class="list-group-item"><a href="#roadmap">Road Map</a></li>
@@ -72,7 +78,8 @@
     <br>
 
     <div style="padding-top: 10%;" class="container">
-      <h1 style=" margin-top: 50px; color: white; padding: 5px; text-align: center; font-family: LM, Sans-Serif;" class="display-4">COOKIES</h1>
+      <div class="d-block d-sm-block d-md-none" style="height: 100px;"></div>
+      <h1 style=" margin-top: 50px; color: white; padding: 5px; text-align: center; font-family: LM, Sans-Serif;" class="display-4">COOKIE DEFI</h1>
       <h6 id="address" style="margin-bottom: 150px; color: white; text-align: center; font-family:playfair;">0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c</h6>
     </div>
        <svg id="top_wave" class="waves_divide" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg>
@@ -81,7 +88,8 @@
       
       <h4 style="color:black; text-align: center; font-family:playfair, Sans-Serif; transform: translateY(-50%);"><b>The DEFI Charity Coin</b></h4>
       <br>
-    <div style="padding-top: 10%;" class="container">
+
+    <div style="padding-top: 10%; margin-bottom: 50px;" class="container">
       <div class="jumbotron d-none d-md-flex">
         
        <ul class="list-group list-group-horizontal ">
@@ -109,10 +117,12 @@
             <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 2s;animation-delay: 0.25s; -webkit-animation-duration: 5s;animation-duration: 4s; left:50%; transform: rotate(33deg); margin-left: -30%;" />
             <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 0.5s;animation-delay: 0.5s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(192deg); margin-left: -10%;" />
             </div>
-            
+            <div style="height: 20%; transform:translateY(-100%); background: url('imgs/cookiewallet.png'); background-size: cover;">
+
+            </div>
           </li>
           <li class="list-group-item"> 
-            <h5>Charity Coin</h5>
+            <h5>Community Driven Charity</h5>
             <img class="img-fluid" src="imgs/cookiemon.png"/>
           </li>
         </ul>
@@ -126,7 +136,7 @@
             4% of every transaction is automatically redistrubited to all holders as a defi reward
           </li>
           <li class="list-group-item">
-            Cookie Token plans to donate more than 100k in Q2 of 2021 with plans to donate more in the future
+            Cookie Token plans to donate more than 100k in Q2 of 2021 to a charity of the communities choosing with plans to donate more in the future
           </li>
         </ul>
         <br>
@@ -182,11 +192,11 @@
           </li>
           <hr style="color:white;">
           <li style="background-color: #0F0F0F;" class="list-group-item vertical_space"> 
-            <h5 style="color:white; text-align: center;">Charity Coin</h5>
+            <h5 style="color:white; text-align: center;">Community Driven Charity</h5>
             <img class="img-fluid" src="imgs/cookiemon.png"/>
           </li>
           <li style="background-color: #0F0F0F;" class="list-group-item">
-            <p>Cookie Token plans to donate more than 100k in Q2 of 2021 with plans to donate more in the future</P>
+            <p>Cookie Token plans to donate more than 100k in Q2 of 2021 to a charity of the communities choosing with plans to donate more in the future</P>
           </li>
         </ul>
       </div>
@@ -283,7 +293,50 @@
     <div class="container">
       
       <h1 style="text-align: center;" id="roadmap">Road Map</h1>
-
+      <br>  
+      <br>
+      <h2 style="text-align: center;">Q2 2021</h2>
+      <h6 style="text-align: center">-Getting Established-</h6>
+      <br>
+      <hr style="color:white;">
+      <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-1">
+          <img width="50" height="50" src="imgs/cookienocrumbs.png">
+        </div>
+        <div class="col-5">
+          <h3>Reach and maintain a 5 million Dollar market cap</h3> 
+          <hr style="color:white;">
+        </div>
+        <div class="col-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-1">
+          <img width="50" height="50" src="imgs/cookiesLogo.png">
+        </div>
+        <div class="col-5">
+          <h3>first community charity vote, winning charity will receive upwards of $100k</h3> 
+          <hr style="color:white;">
+        </div>
+        <div class="col-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-1">
+          <img width="50" height="50" src="imgs/cookiesLogo.png">
+        </div>
+        <div class="col-5">
+          <h3>Begin Devlopement of the official cookie wallet</h3> 
+        </div>
+        <div class="col-3">
+        </div>
+      </div>
     </div>
 
 
