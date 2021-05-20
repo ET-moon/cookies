@@ -9,6 +9,77 @@
   top: 0;
   border-right: 1px solid white;
 }
+.cookie_bullet{
+  width: 30px;
+  height: 30px;
+}
+.card-deck{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon{
+  height: auto;
+  width: 5vw;
+}
+@media screen and (max-width: 755px){
+  .icon{
+    height: auto;
+    width: 15vw;
+  }
+}
+
+.card{
+  max-width: 400px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.card-title{
+  color:black;
+}
+
+.card-header{
+  color:black;
+  text-align: center;
+  
+}
+.card-header img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.card-body{
+  color:black;
+  margin-left: 20px;
+  padding: 25px;
+  
+}
+.roadmap_text{
+  margin-left: 10px;
+  font-size: 1em;
+  max-width: 40%;
+}
+
+.roadmap_pair img{
+  text-align: right;
+  
+}
+
+.side-by-side{
+  display: flex;
+  flex-direction: row;
+}
+
+.roadmap_pair *{
+  display: inline-block;
+  
+}
+
+.roadmap_row{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 
 .top-link{
   color:white;
