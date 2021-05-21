@@ -31,3 +31,6 @@ function copyAddress(){
 }
 document.getElementById("copy_address_button").addEventListener('click', copyAddress)
 document.getElementById("copy_address_button2").addEventListener('click', copyAddress)
+
+
+
