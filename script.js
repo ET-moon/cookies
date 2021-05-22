@@ -18,10 +18,10 @@ function copyAddress(){
   function flash(item){
     function reset(item){
       item.style.color = "white"
-      item.style.backgroundColor = "#0F0F0F"
+      
     }
-    item.style.backgroundColor = "white";
-    item.style.color = "black"
+    
+    item.style.color = "yellow"
     setTimeout(reset, 100, item);
   }
   
@@ -31,6 +31,10 @@ function copyAddress(){
 }
 document.getElementById("copy_address_button").addEventListener('click', copyAddress)
 document.getElementById("copy_address_button2").addEventListener('click', copyAddress)
+
+$('.carousel').carousel({
+  interval: false
+})
 
 
 

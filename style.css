@@ -9,6 +9,31 @@
   top: 0;
   border-right: 1px solid white;
 }
+
+.step{
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+
+
+.next-slide{
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.subItem{
+  margin: 20px;
+  margin-left: 20px;
+}
+
+.btn-primary{
+  background-color: rgba(0,0,0,0);
+}
+
 .cookie_bullet{
   width: 30px;
   height: 30px;
@@ -33,8 +58,9 @@
 .card{
   width: 400px;
   margin: 1%;
-  background-color: white;
-  color: black;
+  background-color: #0f0f0f;
+  color: whtie;
+  
   border-color: white;
 }
 .card-title{
@@ -52,7 +78,7 @@
   
   margin-left: 20px;
   padding: 25px;
-  
+  color:whtie;
 }
 .roadmap_text{
   margin-left: 10px;
