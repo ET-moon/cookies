@@ -21,7 +21,7 @@ function copyAddress(){
       
     }
     
-    item.style.color = "yellow"
+    item.style.color = "#0d6efd"
     setTimeout(reset, 100, item);
   }
   

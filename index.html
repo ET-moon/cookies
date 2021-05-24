@@ -9,6 +9,7 @@
 	 crossorigin="anonymous">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href="pop.css" rel="stylesheet" type="text/css" />
+  <link href="timeline.css" rel="stylesheet" type="text/css"/>
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -29,9 +30,9 @@
 
     <div style="margin-left: 25px;">
 
-      <a  href="#"><img width="30" height="30" src="imgs/pancakeswap.png"/></a>
-      <a  href="#"><img width="30" height="30" src="imgs/twitter_logo.png"/></a>
-      <a  href="#"><img width="30" height="30" src="imgs/telegram.png"/></a>
+      <a  href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c"><img width="30" height="30" src="imgs/pancakeswap.png"/></a>
+      <a  href="https://twitter.com/CookiesToken"><img width="30" height="30" src="imgs/twitter_logo.png"/></a>
+      <a  href="https://t.me/OfficialCookiesToken"><img width="30" height="30" src="imgs/telegram.png"/></a>
       <div class="d-none d-lg-inline">
         <a style="margin-left: 30px;" class="top-link" href="#">WhitePaper</a>
         <a  class="top-link" href="https://charts.bogged.finance/?token=0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c">Chart</a>
@@ -59,8 +60,9 @@
         <a style="margin: 10px; margin-top:20px; display:inline-block;" data-toggle="collapse" href="#mobileMenu" role="button" aria-expanded="false">
             <img width="40" height="40" src="imgs/close.png"/>
           </a>  
-        <a href="#"><img width="40" height="40" src="imgs/pancakeswap.png"/></a>
-        <a href="#"><img width="40" height="40" src="imgs/twitter_logo.png"/></a>
+        <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c"><img width="40" height="40" src="imgs/pancakeswap.png"/></a>
+        <a href="https://twitter.com/CookiesToken"><img width="40" height="40" src="imgs/twitter_logo.png"/></a>
+        <a  href="https://t.me/OfficialCookiesToken"><img width="40" height="40" src="imgs/telegram.png"/></a>
       </div>
       <ul style="z-index:100000; background-color: #0F0F0F; height:40vh; width:100vh; color:white;" class="list-group">
 
@@ -78,11 +80,15 @@
 
     <br>
 
-    <div style="padding-top: 10%;" class="container">
+    <div style="padding-top: 10%; text-align: center;" class="container">
       <div class="d-block d-sm-block d-md-none" style="height: 100px;"></div>
       <h1 style=" margin-top: 50px; color: white; padding: 5px; text-align: center; font-family: LM, Sans-Serif;" class="display-4">COOKIES DEFI</h1>
-      <p class="d-none d-md-block" id="address"  style="margin-bottom: 150px; font-size: 1.2em; color: white; text-align: center; font-family:playfair;">0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c<i id="copy_address_button"style="cursor: pointer; margin-left: 10px; font-size: 1.2em;" class="material-icons">content_copy</i></p>
-      <p class="d-block d-md-none" id="address2"  style="margin-bottom: 150px; font-size: 0.8em; color: white; text-align: center; font-family:playfair;">0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c<i id="copy_address_button2"style="cursor: pointer; margin-left: 10px; font-size: 0.8em;" class="material-icons">content_copy</i></p>
+      <p class="d-none d-md-block"   style=" font-size: 1.2em; color: white; text-align: center; font-family:playfair;"><span id="address">0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c</span><i id="copy_address_button"style="cursor: pointer; margin-left: 10px; font-size: 1.2em;" class="material-icons">content_copy</i></p>
+      <p class="d-block d-md-none"   style=" font-size: 0.8em; color: white; text-align: center; font-family:playfair;"><span id="address2">0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c</span><i id="copy_address_button2"style="cursor: pointer; margin-left: 10px; font-size: 0.8em;" class="material-icons">content_copy</i></p>
+
+      <a style="border-color: white;" class="btn btn-primary" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c">BUY NOW</a>
+      <div style="margin-bottom: 150px;">
+      </div>
     </div>
        <svg id="top_wave" class="waves_divide" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg>
        <svg id="top_wave" class="waves_divide bottom_wave" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg>      
@@ -104,20 +110,20 @@
           <h5>Automatic Defi Yield Farming</h5>
             <div class="snowContainer">
 
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 0s;animation-delay: 0s;-webkit-animation-duration: 4s;animation-duration: 4s; left:50%; transform: rotate(300deg); left:50%; margin-left: 50%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 85px; -webkit-animation-delay: 0s;animation-delay: 0s;-webkit-animation-duration: 4s;animation-duration: 4s; left:50%; transform: rotate(300deg); left:50%; margin-left: 50%;" />
 
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 1s;animation-delay: 0s;-webkit-animation-duration: 4s;animation-duration: 4s; transform: rotate(150deg); left:50%; left:50%; margin-left: -50%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 110px; -webkit-animation-delay: 1s;animation-delay: 0s;-webkit-animation-duration: 4s;animation-duration: 4s; transform: rotate(150deg); left:50%; left:50%; margin-left: -45%;" />
 
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 2s;animation-delay: 0.5s; -webkit-animation-duration: 4s;animation-duration: 4s; transform: rotate(280deg); left:50%; left:50%; margin-left: 0%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 87px; -webkit-animation-delay: 2s;animation-delay: 0.5s; -webkit-animation-duration: 4s;animation-duration: 4s; transform: rotate(280deg); left:50%; left:50%; margin-left: 0%;" />
 
             <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 3s;animation-delay: 1s; -webkit-animation-duration: 4s;animation-duration: 4s; transform: rotate(80deg); left:50%; margin-left: -25%;" />
 
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 0s;animation-delay: 0.75s; -webkit-animation-duration: 5s;animation-duration: 3s; transform: rotate(180deg); left:50%; margin-left: 25%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 80px; -webkit-animation-delay: 0s;animation-delay: 0.75s; -webkit-animation-duration: 5s;animation-duration: 3s; transform: rotate(180deg); left:50%; margin-left: 25%;" />
 
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 2s;animation-delay: 2s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(200deg); margin-left: 50%;" />
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 0.5s;animation-delay: 0s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(120deg); margin-left: 60%;" />
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 2s;animation-delay: 0.25s; -webkit-animation-duration: 5s;animation-duration: 4s; left:50%; transform: rotate(33deg); margin-left: -30%;" />
-            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 100px; -webkit-animation-delay: 0.5s;animation-delay: 0.5s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(192deg); margin-left: -10%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 90px; -webkit-animation-delay: 2s;animation-delay: 2s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(200deg); margin-left: 50%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 95px; -webkit-animation-delay: 0.5s;animation-delay: 0s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(120deg); margin-left: 60%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 80px; -webkit-animation-delay: 2s;animation-delay: 0.25s; -webkit-animation-duration: 5s;animation-duration: 4s; left:50%; transform: rotate(33deg); margin-left: -30%;" />
+            <img alt="snowflakes" src="imgs/cookiesLogo.png" class="snowExample" style="width: 93px; -webkit-animation-delay: 0.5s;animation-delay: 0.5s; -webkit-animation-duration: 5s;animation-duration: 5s; left:50%; transform: rotate(192deg); margin-left: -10%;" />
             </div>
             <div style="height: 20%; transform:translateY(-100%); background: url('imgs/cookiewallet.png'); background-size: cover;">
 
@@ -388,6 +394,7 @@
 
 <!-- waves divider ---------------------------------------------------------------------------------->
 
+
     
     <div style="text-align: center;" class="container">
 
@@ -400,49 +407,44 @@
       <svg id="top_wave" class="waves_divide_small" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg>
       <svg id="top_wave" class="waves_divide_small bottom_wave" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg> 
       <br>
+      
       <div>
-        <div class="card-deck">
-          <div class="card">
-            <h5 class="card-header">Liquidity Lock</h5>
-            <h6 class="card-body">A liquidity lock protects investors as well as providing liquity to the market</h6>
-            <a class="top-link" style="color:black;" target="_blank" href="https://deeplock.io/lock/0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c"> > view liquity lock < </a>
-          </div>
-              <div class="d-block d-md-none">
-                <br><br><br><br><br>
-              </div>
-          <div class="card">
-            <h5 class="card-header">Build a devloper Community</h5>
-            <h6 class="card-body">Hire devlopers to extend the Cookies ecosystem</h6>
-          </div>
-            <div class="d-block d-md-none">
-              <br><br><br><br><br>
-            </div>
-          <div class="card">
-            <h5 class="card-header">First Community Driven Donation</h5>
-            <h6 class="card-body">Host first community vote on what charity to support. winning charity will receive upwards of $100k</h6>
-          </div>
-            <div class="d-block d-md-none">
-              <br><br><br><br><br>
-            </div>
-          <div class="card">
-            <h5 class="card-header">Begin work on the cookie wallet</h5>
-            <h6 class="card-body">An official wallet will allow the community to interact with one another as well as serving as a place to interact with future contracts on the cookie eco system</h6>
-          </div>
-            <div class="d-block d-md-none">
-              <br><br><br><br><br>
-            </div>
-          <div class="card">
-            <h5 class="card-header">List Cookies on Coin Gecko and CMC</h5>
-            <h6 class="card-body">These listings will allow users to have more easily excessable price data as well as establishing pressence in the crypto space</h6>
-          </div>
-            <div class="d-block d-md-none">
-              <br><br><br><br><br>
-            </div>
-          <div class="card">
-            <h5 class="card-header">Cex exchange listing</h5>
-            <h6 class="card-body">Being listed on a Cex exchange will make it easier to buy cookies which will further grow the community</h6>
-          </div>
+        <div>
+          <div class="timeline">
+              <ul>
+                  <li>
+                      <h3>Liquidity Lock</h3>
+                      <p>A liquidity lock protects investors as well as providing liquity to the market</p>
+                      <a class="top-link" style="color:black;" target="_blank" href="https://deeplock.io/lock/0xa12c298F30a8f143eaB6bef26076dcC8C23f8C4c"> > view liquity lock < </a>
+                  </li>
+                  <li>
+                      <div>
+                          <h3>Build a devloper Community</h3>
+                          <p>Hire devlopers to extend the Cookies ecosystem</p>
+                      </div>
 
+                  </li>
+                  <li>
+                      <div>
+                          <h3>First Community Driven Donation</h3>
+                          <p>Host first community vote on what charity to support. winning charity will receive upwards of $100k</p>
+                      </div>
+                  </li>
+                  <li>
+                    <h3>Begin work on the cookie wallet</h3>
+                    <p>An official wallet will allow the community to interact with one another as well as serving as a place to interact with future contracts on the cookie eco system</p>
+                  </li>
+                  <li>
+                    <h3>List Cookies on Coin Gecko and CMC</h3>
+                    <p>These listings will allow users to have more easily excessable price data as well as establishing pressence in the crypto space</p>
+                  </li>
+                  <li>
+                    <h3>Cex exchange listing</h3>
+                    <p>Being listed on a Cex exchange will make it easier to buy cookies which will further grow the community<</p>
+                  </li>
+                  <div style="clear:both;"></div>
+              </ul>
+          </div>
         </div>
       </div>
       <br style="clear:both" />
@@ -455,55 +457,47 @@
       <svg id="top_wave" class="waves_divide_small" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg>
       <svg id="top_wave" class="waves_divide_small bottom_wave" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg> 
       <br>
-      
-      <div class="card-deck">
-        <div class="card">
-          <h5 class="card-header">Celebrity Endorsements</h5>
-          <h6 class="card-body">During this quarter we will look to grow our community through celebrity endorsements/h6>
-        </div>
-        <div class="d-block d-md-none">
-          <br><br><br><br><br>
-        </div>
-        <div class="card">
-          <h5 class="card-header">Regular Donations</h5>
-          <h6 class="card-body">Donations will have a regular schedule and will work</h6>
-        </div>
-        <div class="d-block d-md-none">
-          <br><br><br><br><br>
-        </div>
-        <div class="card">
-          <h5 class="card-header">new defi projects</h5>
-          <h6 class="card-body">The cookies enviroment will begin to expand with the launch of new cookie based defi products</h6>
-        </div>
-        <div style="height: 20%;" class="d-block d-md-none">
-        </div>
-        <div class="d-block d-md-none">
-          <br><br><br><br><br>
-        </div>
-        <div class="card">
-          <h5 class="card-header">new Exchange listings</h5>
-          <h6 class="card-body">Cookies will begin to be listed on more exchanges</h6>
-        </div>
+      <div class="timeline">
+        <ul>
+          <li>
+            <h3>Celebrity Endorsements</h3>
+            <p>During this quarter we will look to grow our community through celebrity endorsements</p>
+          </li>
+          <li>
+            <h3>Regular Donations</h3>
+            <p>Donations will have a regular schedule and will work</p>
+          </li>
+          <li>
+            <h3>new defi projects</h3>
+            <p>The cookies enviroment will begin to expand with the launch of new cookie based defi products</p>
+          </li>
+          <li>
+            <h3>new Exchange listings</h3>
+            <p>Cookies will begin to be listed on more exchanges</p>
+          </li>
+          <div style="clear:both;"></div>
+        </ul>
       </div>
+      <br><br><br><br>
       <h2 style="text-align: center;">Q4 2021</h2>
       <h6 style="font-family: times, serif; text-align: center">-Liftoff-</h6>
+      
       <br>
       <svg id="top_wave" class="waves_divide_small" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg>
       <svg id="top_wave" class="waves_divide_small bottom_wave" viewBox="0 24 150 28 " preserveAspectRatio="none"> <defs> <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" /> </defs> <g class="parallax1"> <use xlink:href="#gentle-wave" x="50" y="3" fill="#9D8DF1"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#4579e2"/> </g> <g class="parallax2"> <use xlink:href="#gentle-wave" x="50" y="0" fill="#E4FF1A"/> </g> <g class="parallax3"> <use xlink:href="#gentle-wave" x="50" y="9" fill="#3461c1"/> </g> <g class="parallax4"> <use xlink:href="#gentle-wave" x="50" y="6" fill="#fff"/> </g> </svg> 
       <br>
-      
-      <div class="card-deck">
-        <div class="card">
-          <h5 class="card-header">Finishing of wallet and defi marketplace</h5>
-          <h6 class="card-body">The wallet and defi marketplace will allow users to easily interact with defi products as well bringing in developers</h6>
-        </div>
-        <div class="d-block d-md-none">
-          <br><br><br><br><br>
-        </div>
-        <div class="card">
-          <h5 class="card-header">More to come Soon</h5>
-          <h6 class="card-body">🤫🤫🤫🚀</h6>
-        </div>
+      <div class="timeline">
+        <ul>
+          <li>
+            <h3>Finishing of wallet and defi marketplace</h3>
+            <p>The wallet and defi marketplace will allow users to easily interact with defi products as well bringing in developers</p>
+          </li>
+          <li>
+            <h3>More to come Soon</h3>
+            <p>🤫🤫🤫🚀</p>
+          </li>
+          <div style="clear:both;"></div>
+        </ul>
       </div>
       <br><br><br><br>
       

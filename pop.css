@@ -362,16 +362,16 @@ animation: coinSlide linear infinite;
   transform: scale(2.5);
 }
 .stake_img_sw{
-  animation: stake_sw 2s linear 2s infinite;
+  animation: stake_sw 2.82s linear 2s infinite;
 }
 .stake_img_nw{
-  animation: stake_nw 2s linear 2s infinite;
+  animation: stake_nw 2.82s linear 2s infinite;
 }
 .stake_img_ne{
-  animation: stake_ne 2s linear 2s infinite;
+  animation: stake_ne 2.82s linear 2s infinite;
 }
 .stake_img_se{
-  animation: stake_se 2s linear 2s infinite;
+  animation: stake_se 2.82s linear 2s infinite;
 }
 .stake_img_s{
   animation: stake_s 2s linear 2s infinite;
